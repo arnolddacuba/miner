@@ -11,6 +11,6 @@ tar xf xmrig-6.6.2-linux-x64.tar.gz
 cd xmrig-6.6.2
 rm config.json
 mv xmrig /miner
-cd /miner
+cd miner
 screen -y
 ./xmrig -c config.json
